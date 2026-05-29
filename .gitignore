@@ -1,0 +1,29 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# raw and intermediate data
+data/raw/
+outputs/intermediate/
+
+# thumbnails generated from Wikimedia Commons
+outputs/thumbnails/
+
+# large or reproducible spatial outputs
+*.zip
+*.rds
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# optional local files
+*.log
